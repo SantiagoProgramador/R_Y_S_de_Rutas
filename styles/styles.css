@@ -1,0 +1,46 @@
+:root {
+  --primary-green: #15523c;
+  --accent-orange: #f17c1d;
+  --support-green: #3e9e42;
+  --neutral-white: #ffffff;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: var(--neutral-white);
+  color: var(--primary-green);
+}
+
+.navbar {
+  background-color: var(--primary-green);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--neutral-white) !important;
+}
+
+.whatsapp-button {
+  background-color: var(--accent-orange);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #d76917;
+}
+
+footer {
+  background-color: var(--primary-green);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
